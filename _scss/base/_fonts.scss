@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Akzidenz-Grotesk Std Ext";
+  src: url("../../assets/fonts/akzidenzGroteskStd-Ext.woff2") format("woff2"),
+    url("../../assets/fonts/AkzidenzGroteskStd-Ext.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Akzidenz-Grotesk Std Ext";
+  src: url("../../assets/fonts/AkzidenzGroteskStd-LightEx.woff2")
+      format("woff2"),
+    url("../../assets/fonts/AkzidenzGroteskStd-LightEx.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Akzidenz-Grotesk Std Ext";
+  src: url("../../assets/fonts/AkzidenzGroteskStd-MdEx.woff2") format("woff2"),
+    url("../../assets/fonts/AkzidenzGroteskStd-MdEx.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Akzidenz-Grotesk Std Ext";
+  src: url("../../assets/fonts/AkzidenzGroteskStd-BoldEx.woff2") format("woff2"),
+    url("../../assets/fonts/AkzidenzGroteskStd-BoldEx.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

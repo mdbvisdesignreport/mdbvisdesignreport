@@ -1,0 +1,16 @@
+title: MongoDB Visual Design EOY Report
+email: emily.nguyen@mongodb.com
+description: "MongoDB Visual Design End of Year Report"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mdbvisdesignreport.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: mdbvisdesignreport
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-autoprefixer
+sass:
+  sass_dir: _scss
+include: ["_pages"]
+kramdown:
+  input: GFM

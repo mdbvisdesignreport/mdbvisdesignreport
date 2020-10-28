@@ -1,0 +1,51 @@
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+
+  <!-- Google Analytics -->
+
+  <!-- Favicons -->
+
+  <!-- Stylesheets -->
+  <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+
+  <title>
+    {% if page.title == "Home" %} {{ site.title }} {% elsif page.title %}{{
+    page.title }} | {{ site.title }}{% else %}{% endif %}
+  </title>
+  <script>
+    document.documentElement.className = "js";
+    var supportsCssVars = function () {
+      var e,
+        t = document.createElement("style");
+      return (
+        (t.innerHTML = "root: { --tmp-var: bold; }"),
+        document.head.appendChild(t),
+        (e = !!(
+          window.CSS &&
+          window.CSS.supports &&
+          window.CSS.supports("font-weight", "var(--tmp-var)")
+        )),
+        t.parentNode.removeChild(t),
+        e
+      );
+    };
+    supportsCssVars() ||
+      alert(
+        "Please view this demo in a modern browser that supports CSS Variables."
+      );
+  </script>
+</head>

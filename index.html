@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<div data-scroll class="page page--layout-2">
+  <div class="content content--center">
+    {% for image in site.data.images %}
+    <div class="content__item" style="--aspect-ratio: {{image.aspect_ratio}}">
+      <div class="content__item-imgwrap">
+        <div
+          class="content__item-img"
+          style="background-image: url(/assets/img/reports/{{ image.path }})"
+        ></div>
+      </div>
+      <h2 class="content__item-title">Wa</h2>
+    </div>
+    {% endfor %}
+
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/demo4.js"></script>
+  </div>
+</div>
