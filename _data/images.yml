@@ -4,3 +4,12 @@
 - title: "Jira tickets completed"
   path: 01.png
   aspect_ratio: 1540/1182
+- title: "Tickets by month"
+  path: tickets-by-month.png
+  aspect_ratio: 1600/1232
+- title: "8790 minutes on Zoom together"
+  path: minutes-on-zoom.png
+  aspect_ratio: 1222/1244
+- title: "14882 Slack messages sent"
+  path: slack-messages.png
+  aspect_ratio: 1225/1585
