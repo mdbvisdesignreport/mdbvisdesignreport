@@ -1003,7 +1003,12 @@ html,
 body {
   background-color: #061621;
   margin: 0;
-  --imgwidthmax: 800px; }
+  --imgwidthmax: 800px;
+  cursor: url("../../assets/img/cursors/default.png"), default;
+  height: 100%; }
+
+a {
+  cursor: url("../../assets/img/cursors/pointer.png"), pointer; }
 
 *,
 *::after,

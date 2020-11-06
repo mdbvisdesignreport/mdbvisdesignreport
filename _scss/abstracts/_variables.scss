@@ -2,3 +2,7 @@ $spacer-1: 2rem;
 $spacer-2: $spacer-1 * 2;
 $spacer-3: $spacer-2 * 2;
 $spacer-4: $spacer-3 * 2;
+
+// Cursors
+$default: url("../../assets/img/cursors/default.png"), default;
+$pointer: url("../../assets/img/cursors/pointer.png"), pointer;
