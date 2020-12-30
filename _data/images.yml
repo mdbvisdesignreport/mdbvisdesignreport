@@ -1,24 +1,27 @@
 - title: "Welcome to the MongoDB Visual Design Report 2020!"
-  path: title.png
+  path: title.gif
   aspect_ratio: 1600/1064
 - title: "Greetings from San Francisco and New York City"
-  path: locations.png
+  path: locations.gif
   aspect_ratio: 1403/868
 - title: "Team growth"
-  path: team-growth.png
+  path: team-growth.gif
   aspect_ratio: 1231/1074
 - title: "Jira tickets completed"
-  path: tickets-completed.png
+  path: tickets-completed.gif
   aspect_ratio: 1540/1182
 - title: "Tickets by month"
-  path: tickets-by-month.png
+  path: tickets-by-month.gif
   aspect_ratio: 1600/1232
+- title: "Design ticket 5000"
+  path: ticket-5000.gif
+  aspect_ratio: 1/1
 - title: "8790 minutes on Zoom together"
-  path: minutes-on-zoom.png
+  path: minutes-on-zoom.gif
   aspect_ratio: 1222/1244
 - title: "14882 Slack messages sent"
-  path: slack-messages.png
+  path: slack-messages.gif
   aspect_ratio: 1225/1585
 - title: "Color usage throughout the year"
-  path: color.png
+  path: color.gif
   aspect_ratio: 1864/1434
